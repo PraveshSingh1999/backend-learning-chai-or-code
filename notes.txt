@@ -1,4 +1,3 @@
 - to know node version, node -v
 
 - npm init (initialize node manager)
-- 
