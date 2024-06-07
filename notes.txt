@@ -1,3 +1,5 @@
 - to know node version, node -v
 
 - npm init (initialize node manager)
+
+- gitignore generator link - https://mrkandreev.name/snippets/gitignore-generator/
