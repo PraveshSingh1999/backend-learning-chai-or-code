@@ -2,4 +2,55 @@
 
 - npm init (initialize node manager)
 
+- if we want to push emptry tree folder, we create .gitKeep file inside it.
+
+- for photos, we keep backup in server
+- public  (folder)
+    - temp  (folder)
+
+- .gitignore file, and content can be copied from "git generator" website
 - gitignore generator link - https://mrkandreev.name/snippets/gitignore-generator/
+
+- .env file (environment variables)
+
+- package.json -> type: "module"
+
+- npm i -D nodemon
+- npm i -D prettier ( used when working in team, to avoid conflict when pushing code on github )
+- dev dependencies - jo development kei time pe use karengei, production mei nahi lekar jatei hei.
+
+- src
+    - app.js
+    - constants.js
+    - index.js
+    - controllers
+    - db
+    - middlewares
+    - models
+    - routes
+    - utils
+
+- utils for utility like for file upload , for mailing, functionality which is used in more places 
+
+- ".prettierrc" file - change very project to project
+    {
+        "singleQuote": false,
+        "bracketSpacing": true,
+        "tabWidth": 1,
+        "trailingComma":"es5"
+        "semi": true
+    }
+
+- ".prettierignore" file - in which file we don't want to implement prettier.
+
+- git init
+- git add .
+- git commit -m "--comment--"
+- git branch -M main (renaming to main)
+- git remote add origin "---link---"
+- git push -u origin main
+
+- git status (to check to which files are not pushed on github)
+
+
+
